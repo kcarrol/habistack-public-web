@@ -14,8 +14,8 @@ export const query = graphql`
 interface HostProps {
   data: {
     plasmicOptions: InitOptions;
-  }
-}
+  } 
+} 
 
 export default function Host({ data }: HostProps) {
   const { plasmicOptions } = data
